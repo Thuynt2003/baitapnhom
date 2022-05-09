@@ -1,0 +1,168 @@
+.gioi_thieu{
+    background-color: #191734;
+    width: 100%;
+    height: 260px;
+    text-align: center;
+}
+.home_dad{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 73px;
+}
+li{
+    padding: 3px;
+}
+.home{
+    text-decoration: none;
+    color: #7dc2ff;
+}
+
+.big-text{
+    font-family:'Elsie Swash Caps', cursive;
+    color: aliceblue;
+    font-size: 65px;
+    margin-top: -5px;
+    
+}
+
+.icon-tin-nhan{
+    position: fixed;
+    display: flex;
+    bottom: 10px;
+}
+
+.chat-popup{
+    width: 327px;
+    height: 440px;
+    position: absolute;
+    bottom: 50px;
+    left: 40px;
+    border-radius: 20px 20px 20px 0px;
+    z-index: 113;
+    animation: fadeIn linear 1s;
+    -webkit-animation: fadeIn linear 1s;
+    -moz-animation: fadeIn linear 1s;
+    -o-animation: fadeIn linear 1s;
+    -ms-animation: fadeIn linear 1s;
+    background-color: #efefef;
+    box-shadow: 0px 3px 1px -2px rgb(0 0 0 / 20%), 0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 1px 5px 0px rgb(0 0 0 / 12%);
+}
+
+.icon-messenger{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(255, 128, 1);
+    text-align: center;
+    border-radius: 50%;
+    justify-content: center;
+}
+
+.icon-chatpopup{
+    margin: 10px;
+    float: right;
+}
+
+.contact-container {
+    position: fixed;
+    bottom: 10px;
+}
+
+.hidden {
+    display: none;
+} 
+
+.display {
+    display: block;
+}
+
+.message-content {
+    margin: 10px;
+    display: block;
+}
+
+.chat-with {
+    -webkit-line-clamp: 1;
+    float: none;
+    line-height: 82px;
+    font-size: 18px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    clear: both;
+    overflow-wrap: break-word;
+}
+.btn{
+    padding: 35px 0 ;
+}
+.button2{
+    margin-top: 28px;
+    width: 280px;
+    height: 55px;
+    border: 1px solid rgb(222, 198, 198);
+    cursor: pointer;
+    border-radius: 16px;
+}
+.button1{
+    border-radius: 16px;
+    width: 280px;
+    height: 55px;
+    background-color: rgb(201, 5, 5);
+    border: 0px;
+    cursor: pointer;
+}
+.chat-popup-footer{
+    font-size: 14px;
+    color: #4d4949;
+    margin-left: 5px;
+    text-align: center;
+}
+.home-content{
+    text-decoration: none;
+    color: black;
+}
+.content{
+    margin-left: 402px;
+}
+p{
+    font-size: 23px;
+}
+  .google-map{
+      background: url("images-googlemap.jpg");
+      height: 140px;
+      width: 280px;
+  }
+  .text-google-map{
+      color:black;
+      margin-left: 18px;
+      width: 135px;
+      height: 26px;
+      background-color: white;
+      position: absolute;
+    }
+    
+  @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
