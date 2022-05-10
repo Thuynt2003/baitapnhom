@@ -12,12 +12,10 @@ $(document).ready(function() {
   $(document).ready(function() {
     $(".icon-cart").click(function() {
         $(".chat-popup-cart").toggleClass("hidden");
-        $('body').addClass('body-background');
     });
 
     $(".close-icon-cart").click(function() {
         $(".chat-popup-cart").toggleClass("hidden");
-        $('body').removeClass('body-background');
     });
   });
   

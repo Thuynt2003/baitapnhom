@@ -1,8 +1,5 @@
 body{
-    background-color: #F6F5F2;;
-}
-.body-background{
-    background-color: #9aa29f;
+    background-color: #fcfefd;
 }
 .gioi_thieu{
     background-color: #191734;
@@ -201,11 +198,11 @@ a.main-header__arrow-btn.arrow--fixed {
     margin-right: 30px;
 }
 .chat-popup-cart {
-    width:424px;
-    height:484px;
+    width:298px;
+    height:327px;
     position: absolute;
     bottom: 54px;
-    right: 500px;
+    right: 350px;
     z-index: 113;
     border-radius: 20px 20px 20px 20px;
     animation: fadeIn linear 1s;
@@ -218,21 +215,17 @@ a.main-header__arrow-btn.arrow--fixed {
 }
 .text-cart{
     border-bottom: 0.5px solid;
-    height: 137px;
-    width:340px;
+    height: 100px;
+    width:221px;
 }
 .cart-with{
     clear: both;
     overflow-wrap: break-word;
-    font-size: 22px;
+    font-size: 16px;
     margin-left: 38px;
 }
 .button-cart{
-    width: 166px;
-    height: 36px;
-    border-radius: 9px;
-    background-color: red;
-    border: 0;
+    margin-top: 6px;
 
 }
 @keyframes fadeIn {
