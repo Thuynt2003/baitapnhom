@@ -169,6 +169,7 @@ div.main-header__cart-btn.cart--fixed {
     -o-transition      : all 500ms ease;
     -webkit-transition : all 500ms ease;
     transition         : all 500ms ease;
+    cursor: pointer;
 }
 .main-header__cart-btn {
     margin-left: 30px;
