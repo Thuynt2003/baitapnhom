@@ -40,10 +40,10 @@ li{
 }
 
 .chat-popup{
-    width: 253px;
-    height: 311px;
+    width: 343px;
+    height: 398px;
     position: absolute;
-    bottom: 50px;
+    bottom: 63px;
     left: 40px;
     border-radius: 20px 20px 20px 0px;
     z-index: 113;
@@ -91,8 +91,8 @@ li{
 .chat-with {
     -webkit-line-clamp: 1;
     float: none;
-    line-height: 43px;
-    font-size: 15px;
+    line-height: 50px;
+    font-size: 21px;
     overflow: hidden;
     display: -webkit-box;
     -webkit-box-orient: vertical;
@@ -103,9 +103,9 @@ li{
     padding: 35px 0 ;
 }
 .button2{
-    margin-top: 10px;
-    width: 231px;
-    height: 41px;
+    margin-top: 33px;
+    width: 320px;
+    height: 52px;
     border: 1px solid rgb(222, 198, 198);
     cursor: pointer;
     border-radius: 16px;
@@ -113,17 +113,17 @@ li{
 .button1{
     margin-top: -12px;
     border-radius: 16px;
-    width: 231px;
-    height: 41px;
+    width: 320px;
+    height: 52px;
     background-color: rgb(201, 5, 5);
     border: 0px;
     cursor: pointer;
 }
 span{
-    font-size: 9px;
+    font-size: 17px;
 }
 .chat-popup-footer{
-    font-size: 10px;
+    font-size: 14px;
     color: #4d4949;
     margin-left: 5px;
     text-align: center;
@@ -133,7 +133,7 @@ span{
     color: inherit;
 }
 .content{
-    margin-left: 212px;
+    margin-left: 301px;
 }
 p{
     font-size: 23px;
